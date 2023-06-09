@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <!-- BOXICON LINK -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+
+
+    <!-- INTRO -->
+    <div class="intro-logo" data-intro-logo>
+        <!-- LOGO -->
+        <div class="logo-icon">
+            <div class="icon">
+                <img src="./assets/images/rock logo.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="./assets/images/paper-logo.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="./assets/images/scissor logo.png" alt="">
+            </div>
+        </div>
+        <!-- LOGO TITLE -->
+        <h2 class="intro-title">Rock Paper Scissor</h2>
+    </div>
+
+
+    <!-- LOADING ANIMATION -->
+    <div class="loading">
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+    </div>
+
+
+    <!-- PLAY BTN -->
+    <div class="play" data-play>
+
+        <div class="play-btn" data-play-btn>
+            <small class="play-title">Let's Play!</small>
+            <div class="btn"><i class='bx bx-play'></i></div>
+        </div>
+
+    </div>
+
+
+    <!-- MAIN GAME BOX -->
+    <div class="game-container" data-game-container>
+
+        <div class="container">
+
+            <!-- RESULT FIELD -->
+            <div class="result-field">
+                <!-- COMPUTER RESULT IMG -->
+                <div class="cpu-result result" data-cpu-result>
+                    <img src="./assets/images/r-rock.png" alt="">
+                    <div class="img-color"></div>
+                </div>
+                <!-- V/S TITLE -->
+                <div class="vs-title result">
+                    VS
+                </div>
+                <!-- USER RESULT IMG -->
+                <div class="user-result result" data-user-result>
+                    <img src="./assets/images/r-rock.png" alt="">
+                    <div class="img-color"></div>
+                </div>
+            </div>
+
+
+            <!-- POINT SECTION -->
+            <div class="point-section">
+                <!-- USER POINT -->
+                <div class="point">You : <span class="user-point" data-user-point>0</span> </div>
+                <!-- COMPUTER POINT -->
+                <div class="point">Com : <span class="cpu-point" data-cpu-point>0</span> </div>
+            </div>
+
+
+            <!-- RESULT WON AND LOSE -->
+            <div class="final-result" data-result-title>Let's Play!</div>
+
+
+            <!-- OPTION BTN -->
+            <div class="option-section" data-option-list>
+                <!-- ROCK BTN -->
+                <div class="option" data-option-btn>
+                    <img src="./assets/images/rock logo.png" alt="rock image">
+                </div>
+                <!-- PAPER BTN -->
+                <div class="option" data-option-btn>
+                    <img src="./assets/images/paper-logo.png" alt="paper image">
+                </div>
+                <!-- SCISSOR BTN -->
+                <div class="option" data-option-btn>
+                    <img src="./assets/images/scissor logo.png" alt="scissor image">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- VICTORY SECTION -->
+    <div class="victory-box" data-victory>
+        <!-- TITLE AND SUBTITLE -->
+        <div class="title" data-victory-title>You Won</div>
+        <div class="subtitle" data-victory-subtitle>Good Luck</div>
+        <!-- BTN -->
+        <button class="replay-btn" data-replay-btn>Play Now</button>
+
+    </div>
+
+
+    <!-- OVERLAY -->
+    <div class="overlay " data-overlay></div>
+
+
+    <!-- THEME SECTION -->
+    <div class="theme-wrapper">
+
+        <!-- THEME BTN -->
+        <div class="theme-btn" data-theme-btn>
+            <i class="bx bx-edit"></i>
+        </div>
+        <!-- THEME MENU -->
+        <div class="theme-menu" data-theme-menu>
+            <span class="color" data-color-btn></span>
+            <span class="color" data-color-btn></span>
+            <span class="color" data-color-btn></span>
+            <span class="color" data-color-btn></span>
+            <span class="color" data-color-btn></span>
+            <!-- BTN -->
+            <i class="bx bx-edit" data-theme-btn></i>
+        </div>
+
+    </div>
+
+
+    <!-- JS LINK -->
+    <script src="./assets/JS/script.js"></script>
+
+</body>
+
+
+</html>
